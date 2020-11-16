@@ -1,0 +1,13 @@
+<h2> This is My answer </h2>
+
+<div class="message">
+  <p><%= @question.capitalize %></p>
+  <p id="author">- You</p>
+</div>
+
+<div class="answer">
+  <p><%= @answer %></p>
+  <p id="author">- Your coach</p>
+</div>
+
+<p><%= link_to 'New Question', ask_path %></p>
